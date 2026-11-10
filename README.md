@@ -146,7 +146,7 @@ In a second terminal, activate the same environment and start the dashboard:
 streamlit run streamlit_app.py
 ```
 
-Streamlit opens at <http://localhost:8501>. By default, the dashboard uses the API at `http://127.0.0.1:8000`. The dashboard reads request logs and metrics from the same SQLite database; run both processes from the project directory and use the same `DATABASE_PATH` if you override it.
+Streamlit opens at <http://localhost:8501>. By default, the dashboard uses the API at `http://127.0.0.1:8000`; set `SMARTROUTE_API_URL` to use a different gateway URL. The dashboard reads request logs and metrics from the same SQLite database; run both processes from the project directory and use the same `DATABASE_PATH` if you override it.
 
 ## HTTP API
 

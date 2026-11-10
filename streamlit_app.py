@@ -6,7 +6,7 @@ from app.database import init_db, recent_requests, aggregate_metrics
 
 st.set_page_config(page_title="SmartRoute", page_icon="🧭", layout="wide")
 init_db()
-API_URL = os.getenv("SMARTR0UTE_API_URL", "http://127.0.0.1:8000")
+API_URL = os.getenv("SMARTROUTE_API_URL", "http://127.0.0.1:8000")
 st.title("🧭 SmartRoute")
 st.caption("Intelligent LLM gateway · V0–V7")
 
